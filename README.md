@@ -44,7 +44,7 @@ To get started with Interactive SQL, follow these steps:
 Here's an example of how to use Interactive SQL:
 
 1. Upload a dataset named `example_data.csv`.
-2. Input the SQL prompt: `SELECT * FROM example_data WHERE column_name = 'value';`
+2. Input the SQL prompt: `SHOW THE DATA;`
 3. Click on "Generate Query" to see the filtered results.
 
 ## Support and Feedback

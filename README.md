@@ -12,13 +12,11 @@ To get started with Interactive SQL, follow these steps:
    cd Interactive_SQL
    ```
 
-2. **Import Required Libraries**
-   Make sure you have the following libraries installed:
-   - Streamlit
-   - Pandas
-   - SQLAlchemy
-   - Google Generative AI
-
+2. **Install the Requirements**
+  ```bash
+   pip install -r requirements.txt
+   ```
+   
 3. **Get Your Gemini API Key**
    You'll need to obtain your Gemini API key and paste it into the code to enable the functionality.
 

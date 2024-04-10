@@ -1,0 +1,4 @@
+google-generative-ai>=0.1.0
+sqlalchemy>=1.4.0
+pandas>=1.4.0
+streamlit>=1.4.0

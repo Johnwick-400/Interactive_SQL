@@ -20,19 +20,19 @@ def create_prompt(df, nlp_text):
     '''
     return prompt
 
-# Streamlit app
+
 def main():
     st.title("Interactive SQL")
     st.markdown("<h3 style='font-size:25px'>Upload, Prompt, Analyze</h3>", unsafe_allow_html=True)
 
-    # User inputs for CSV data and information to obtain
+  
     uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
     nlp_text = st.text_input("Enter information you want to obtain:", "")
 
     if uploaded_file is not None:
         df = pd.read_csv(uploaded_file)
 
-        # Generate SQL query based on user input
+     
         prompt = create_prompt(df, nlp_text)
 
         response = model.generate_content([prompt])
